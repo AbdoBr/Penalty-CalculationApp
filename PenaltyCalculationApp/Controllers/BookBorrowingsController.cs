@@ -123,7 +123,7 @@ namespace PenaltyCalculationApp.Controllers
             }
         }
 
-        // Get All Countries
+        // Get All Countries 
         [HttpGet]
         [Route("GetAllCountriess")]
         public async Task<IActionResult> GetAllCountriess()
